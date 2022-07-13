@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@400;700&display=swap');
+
+/* Landing Page */
+
+.main-img {
+    background-image: url("/image/back.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 100vw;
+    /* background-attachment: fixed; */
+}
+
+.second-img {
+    background-image: url("/image/about.png");
+    height: 100vh;
+    width: 100vw;
+    /* background-attachment: fixed; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.third-img {
+    background-image: url("/image/timeline1.png");
+    height: 100vh;
+    width: 100vw;
+    /* background-attachment: fixed; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.img-logo {
+    padding-top: 20px;
+    margin-left: -54px;
+    width: 120px;
+}
+
+#welcome-info {
+    text-align: end;
+}
+
+#welcome-info h1 {
+    padding-top: 80px;
+    font-family: 'Inter', sans-serif;
+    font-size: 160px;
+    color: #54744F;
+}
+
+#welcome-info h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FF6A3B;
+    margin-top: -40px;
+}
+
+#welcome-info h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #54744F;
+    margin-top: -20px;
+}
+
+#welcome-info input {
+    background-color: #91C789;
+    border-radius: 18px;
+    width: 216px;
+}
+
+#welcome-info button {
+    background-color: #54744F;
+    border-radius: 18px;
+    width: 131px;
+    border: none;
+}
+
+#welcome-info ::placeholder {
+    color: #fff;
+}
+
+.fa,
+.fa-brands {
+    margin-top: 70px;
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #54744F;
+}
+
+
+/* Akhir Landing Page */
+
+
+/* Awal Navbar */
+
+
+/* Akhir Navbar */
+
+
+/* About */
+
+.aboutImg {
+    width: 200px;
+}
+
+
+/* .about-content {} */
+
+
+/* end About */
