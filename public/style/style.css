@@ -8,6 +8,7 @@
     background-color: #D5ECC2;
     overflow: hidden;
     position: relative;
+    margin-top: -100px;
 }
 
 #nav-page a {
@@ -180,8 +181,16 @@
 
 /* End Timeline */
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     /* Landing Page */
+    #landing-page {
+        width: 100%;
+        height: 100vh;
+        background-color: #D5ECC2;
+        overflow: hidden;
+        position: relative;
+        margin-top: -100px;
+    }
     #nav-page a {
         font-family: 'Roboto', sans-serif;
         color: #54744F;
@@ -269,6 +278,70 @@
         margin-top: 200px;
     }
     /* End Timeline */
+}
+
+@media (max-width: 480px) {
+    #nav-page a {
+        font-family: 'Roboto', sans-serif;
+        color: #54744F;
+        font-weight: bolder;
+        z-index: 1;
+        font-size: 9px;
+    }
+    #nav-page a:hover {
+        color: #FF6A3B;
+    }
+    .uk-navbar-nav li {
+        z-index: 1;
+        font-size: 10px;
+    }
+    .uk-navbar-nav li a:hover {
+        color: #FF6A3B;
+    }
+    .navbar-brand {
+        width: 50px;
+        margin-top: 10px;
+    }
+    .nav-backs {
+        background-image: linear-gradient(#FEFFDF, #92C889);
+        width: 50%;
+    }
+}
+
+@media (max-width: 360px) {
+    #landing-page {
+        width: 100%;
+        height: 100vh;
+        background-color: #D5ECC2;
+        overflow: hidden;
+        position: relative;
+        margin-top: -90px;
+    }
+    #nav-page a {
+        font-family: 'Roboto', sans-serif;
+        color: #54744F;
+        font-weight: bolder;
+        z-index: 1;
+        font-size: 9px;
+    }
+    #nav-page a:hover {
+        color: #FF6A3B;
+    }
+    .uk-navbar-nav li {
+        z-index: 1;
+        font-size: 10px;
+    }
+    .uk-navbar-nav li a:hover {
+        color: #FF6A3B;
+    }
+    .navbar-brand {
+        width: 50px;
+        margin-top: 10px;
+    }
+    .nav-backs {
+        background-image: linear-gradient(#FEFFDF, #92C889);
+        width: 50%;
+    }
 }
 
 @media only screen and (max-device-width: 768px) and (orientation:portrait) {

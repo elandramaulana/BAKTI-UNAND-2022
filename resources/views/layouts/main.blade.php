@@ -39,23 +39,23 @@
         <div class="uk-navbar-right">
 
           <ul class="uk-navbar-nav">
-            <li><a href="#">Beranda</a></li>
-            <li><a href="#">Logo</a></li>
-            <li><a href="#">Maskot</a></li>
-            <li><a href="#">Peta</a></li>
+            <li><a href="/">Beranda</a></li>
+            <li><a href="/logo">Logo</a></li>
+            <li><a href="/maskot">Maskot</a></li>
+            <li><a href="/peta">Peta</a></li>
           </ul>
 
 
           <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
           <div class="uk-navbar-dropdown nav-backs">
             <ul class="uk-nav uk-navbar-dropdown-nav">
-              <li><a href="#">Sambutan</a></li>
-              <li><a href="#">Fakultas dan Jurusan</a></li>
-              <li><a href="#">Unit Kegiatan Mahasiswa</a></li>
-              <li><a href="#">Bakti Anthem Player</a></li>
-              <li><a href="#">Merchendise</a></li>
-              <li><a href="#">Tugas</a></li>
-              <li><a href="#">Gallery</a></li>
+              <li><a href="/sambutan">Sambutan</a></li>
+              <li><a href="/fakultas">Fakultas dan Jurusan</a></li>
+              <li><a href="/ukm">Unit Kegiatan Mahasiswa</a></li>
+              <li><a href="/anthem">Bakti Anthem Player</a></li>
+              <li><a href="/merch">Merchendise</a></li>
+              <li><a href="/tugas">Tugas</a></li>
+              <li><a href="/gallery">Gallery</a></li>
             </ul>
           </div>
         </div>
@@ -66,27 +66,11 @@
   </div>
 
 
-  <section id="landing-page">
-    <div class="main-img">
-      @yield('landing-page')
-    </div>
-  </section>
+  @yield('landing-page')
 
-  <section id="About">
-    <div class="col-sm-12">
-      <div id="test-target" class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: 20">
-        <div class="col-sm-12">
-          <div class="second-img container-fluid">
-            @yield('about')
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  @yield('about')
 
-  <section id="Timeline" class="third-img">
-    @yield('timeline')
-  </section>
+  @yield('timeline')
 
 
 
