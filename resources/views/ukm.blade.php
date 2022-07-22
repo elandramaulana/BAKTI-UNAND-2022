@@ -25,7 +25,7 @@
 
    <body> 
 
-    <section class="four-img" id="sambutan" style="background-color: #d1cacf;">
+    <section class="first-img" id="sambutan">
         <div id="nav-page">
             <div class="container-fluid">
               <nav class="uk-navbar uk-navbar-container uk-navbar-transparent uk-margin" uk-navbar>
@@ -62,57 +62,64 @@
           </div>
 
     <p uk-margin>
-        <button class="uk-button uk-button-default uk-button-large info2" >Gallery & After Movie</button>
+        <button class="uk-button uk-button-default uk-button-large info">Pengenalan UKM</button>
     </p>
 
-    <div class="uk-child-width-expand@s uk-text-center" uk-grid style="margin:0 30px">
-        <div style="padding-left:100px">
-            <div class="uk-flex mt-3">
-                <div class="uk-card mt-3 uk-transition-toggle" tabindex="0">
-                    <img  src="image/cover.png" width="270px" height="160px" alt="">
-                    <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png" width="270px" height="160px" alt="">
-                </div>
-                <div class="uk-card mt-3 uk-transition-toggle" tabindex="0" style="margin-left:30px;">
-                    <img  src="image/cover.png" width="270px" height="160px" alt="">
-                    <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png" width="270px" height="160px" alt="">
-                </div>
-            </div>
-            <div class="uk-flex mt-3">
-                <div class="uk-card mt-3 uk-transition-toggle" tabindex="0">
-                    <img  src="image/cover.png" width="270px" height="160px" alt="">
-                    <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png" width="270px" height="160px" alt="">
-                </div>
-                <div class="uk-card mt-3 uk-transition-toggle" tabindex="0" style="margin-left:30px;">
-                    <img  src="image/cover.png" width="270px" height="160px" alt="">
-                    <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png" width="270px" height="160px" alt="">
-                </div>
-            </div>
-        </div>
-        
-        <div>
-            <div class="uk-flex" style="margin-top:30px">
-            <video src="https://yootheme.com/site/images/media/yootheme-pro.mp4" width="400" height="250" loop muted playsinline uk-video="autoplay: inview"></video>
-            </div>
-            <div class="uk-flex">
-                <div class="uk-card mt-3 uk-transition-toggle" tabindex="0">
-                    <img  src="image/cover.png" width="180px" height="80px" alt="">
-                    <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png" width="180px" height="80px" alt="">
-                </div>
-                <div class="uk-card mt-3 uk-transition-toggle" tabindex="0" style="margin-left:36px;">
-                    <img  src="image/cover.png" width="180px" height="80px" alt="">
-                    <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png" width="180px" height="80px" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="clsActivated: uk-transition-active; center: true"  style="margin:0 30px; padding:40px 40px">
 
+        <ul class="uk-slider-items uk-grid">
+            <li class="uk-width-1-2">
+                <div class="uk-panel">
+                    <img src="image/example.png" width="700" height="100" alt="">
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                        <h3 class="uk-margin-remove">UKM NEO TEMELETRI</h3>
+                    </div>
+                </div>
+            </li>
+            <li class="uk-width-1-2">
+                <div class="uk-panel">
+                    <img src="image/example.png" width="700" height="100" alt="">
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                        <h3 class="uk-margin-remove">UKM PRAMUKA</h3>
+                    </div>
+                </div>
+            </li>
+            <li class="uk-width-1-2">
+                <div class="uk-panel">
+                    <img src="image/example.png" width="700" height="100" alt="">
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                        <h3 class="uk-margin-remove">UKM UKS</h3>
+                    </div>
+                </div>
+            </li>
+            <li class="uk-width-1-2">
+                <div class="uk-panel">
+                    <img src="image/example.png" width="700" height="100" alt="">
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                        <h3 class="uk-margin-remove">UKM MAPALA</h3>
+                    </div>
+                </div>
+            </li>
+            <li class="uk-width-1-2">
+                <div class="uk-panel">
+                    <img src="image/example.png" width="700" height="100" alt="">
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                        <h3 class="uk-margin-remove">UKM PMR</h3>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+    
+    </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
-  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>  
 </body>
 </html>

@@ -30,7 +30,7 @@ div {
 .third-img {
     background-image: url("/image/merchandise.png");
     height: 190vh;
-    width: 91,5vw;
+    width: 99,1vw;
     background-color: #d5ded5;
     background-position: center center;
     background-repeat: no-repeat;
@@ -59,9 +59,8 @@ div {
 
 .six-img {
     background-image: url("/image/fakultas.png");
-    height: 200vh;
+    height: 185vh;
     width: 98,5vw;
-    background-color: #d4e0d4;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -77,11 +76,20 @@ div {
     background-size: 100%;
 }
 
+.eight-img {
+    background-image: url("/image/maskot.png");
+    height: 100vh;
+    width: 100vw;
+    background-color: #d4e0d4;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .info
 {
     font-size:18px;
     font-weight:800;
-    margin-top:10px;
     border-radius: 20px;
     background-color: #54744F;
     color:white;
@@ -91,8 +99,7 @@ div {
 {
     font-size:18px;
     font-weight:800;
-    margin-top:10px;
-    margin-left:970px;
+    margin-left:940px;
     border-radius: 20px;
     border:0px;
     background-color: #54744F;
@@ -103,7 +110,6 @@ div {
 {
     font-size:18px;
     font-weight:800;
-    margin-top:10px;
     margin-left:940px;
     border-radius: 20px;
     border:0px;
@@ -115,11 +121,20 @@ div {
 {
     font-size:18px;
     font-weight:800;
-    margin-top:10px;
     margin-left:1030px;
     border-radius: 20px;
     border:0px;
     background-color: #54744F;
+    color:white;
+}
+
+.info5
+{
+    font-size:18px;
+    font-weight:800;
+    border-radius: 20px;
+    margin-left:150px;
+    background-color: #91C789;
     color:white;
 }
 
