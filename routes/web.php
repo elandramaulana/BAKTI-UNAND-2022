@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+<<<<<<< HEAD
 Route::get('/peta', function () {
     return view('peta');
 });
@@ -44,3 +45,16 @@ Route::get('/fakultas', function () {
 Route::get('/anthem', function () {
     return view('anthem');
 });
+=======
+Route::get('/logo', function () {
+    return view('logo');
+});
+
+Route::get('/maskot', function () {
+    return view('maskot');
+});
+
+Route::get('/peta', function () {
+    return view('peta');
+});
+>>>>>>> 3a415014105a24f166a29259d8d28b018701cea0

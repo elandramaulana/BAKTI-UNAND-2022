@@ -2,14 +2,58 @@
 
 /* Landing Page */
 
+#landing-page {
+    width: 100%;
+    height: 100vh;
+    background-color: #D5ECC2;
+    overflow: hidden;
+    position: relative;
+    margin-top: -100px;
+}
+
+#nav-page a {
+    font-family: 'Roboto', sans-serif;
+    color: #54744F;
+    font-weight: bolder;
+    z-index: 1;
+}
+
+#nav-page a:hover {
+    color: #FF6A3B;
+}
+
+.uk-navbar-nav li {
+    z-index: 1;
+}
+
+.nav-backs {
+    background-image: linear-gradient(#FEFFDF, #92C889);
+    width: 15%;
+}
+
+.uk-navbar-nav li a:hover {
+    color: #FF6A3B;
+}
+
+.back-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 50px;
+    right: 50px;
+}
+
 .main-img {
     background-image: url("/image/back.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 100%;
     height: 100vh;
     width: 100vw;
     /* background-attachment: fixed; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .second-img {
@@ -23,8 +67,8 @@
 }
 
 .third-img {
-    background-image: url("/image/timeline1.png");
-    height: 100vh;
+    background-image: url("/image/timeline.png");
+    height: 150vh;
     width: 100vw;
     /* background-attachment: fixed; */
     background-position: center center;
@@ -48,18 +92,18 @@
     width: 120px;
 }
 
-#welcome-info {
+.welcome-info {
     text-align: end;
 }
 
-#welcome-info h1 {
-    padding-top: 80px;
+.welcome-info h1 {
+    margin-top: -230px;
     font-family: 'Inter', sans-serif;
     font-size: 160px;
     color: #54744F;
 }
 
-#welcome-info h2 {
+.welcome-info h2 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 40px;
@@ -67,7 +111,7 @@
     margin-top: -40px;
 }
 
-#welcome-info h4 {
+.welcome-info h4 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 40px;
@@ -75,23 +119,8 @@
     margin-top: -20px;
 }
 
-#welcome-info input {
-    background-color: #91C789;
-    border-radius: 18px;
-    width: 216px;
-}
 
-#welcome-info button {
-    background-color: #54744F;
-    border-radius: 18px;
-    width: 131px;
-    border: none;
-}
-
-#welcome-info ::placeholder {
-    color: #fff;
-}
-
+/* 
 .fa,
 .fa-brands {
     margin-top: 70px;
@@ -102,26 +131,240 @@
     text-decoration: none;
     border-radius: 50%;
     color: #54744F;
-}
+} */
 
 
 /* Akhir Landing Page */
 
 
-/* Awal Navbar */
-
-
-/* Akhir Navbar */
-
-
 /* About */
 
-.aboutImg {
-    width: 200px;
+#About .aboutImg {
+    width: 350px;
+}
+
+.about-content {
+    color: #030303;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    margin-bottom: 100px;
+}
+
+.slider {
+    margin-top: 150px;
+}
+
+#About .uk-card {
+    background-color: #91C789;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: white
+}
+
+#About .uk-card H1 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#About .uk-height-medium {
+    height: 200px;
 }
 
 
-/* .about-content {} */
-
-
 /* end About */
+
+
+/* Timeline */
+
+.timelineImg {
+    width: 350px;
+    margin-top: 80px;
+}
+
+.timeline-tree {
+    width: 550px;
+    margin-top: 250px;
+}
+
+
+/* End Timeline */
+
+@media (max-width: 1024px) {
+    /* Landing Page */
+    #landing-page {
+        width: 100%;
+        height: 100vh;
+        background-color: #D5ECC2;
+        overflow: hidden;
+        position: relative;
+        margin-top: -100px;
+    }
+    #nav-page a {
+        font-family: 'Roboto', sans-serif;
+        color: #54744F;
+        font-weight: bolder;
+        z-index: 1;
+        font-size: 10px;
+    }
+    #nav-page a:hover {
+        color: #FF6A3B;
+    }
+    .uk-navbar-nav li {
+        z-index: 1;
+        font-size: 10px;
+    }
+    .uk-navbar-nav li a:hover {
+        color: #FF6A3B;
+    }
+    .navbar-brand {
+        width: 50px;
+        margin-top: 10px;
+    }
+    .nav-backs {
+        background-image: linear-gradient(#FEFFDF, #92C889);
+        width: 50%;
+    }
+    .welcome-info {
+        text-align: end;
+        margin-top: -220px;
+    }
+    .welcome-info h1 {
+        font-size: 80px;
+        padding-top: -200px;
+        font-family: 'Inter', sans-serif;
+    }
+    .welcome-info h2 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        color: #FF6A3B;
+        margin-top: -15px;
+    }
+    .welcome-info h4 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        color: #54744F;
+        margin-top: -10px;
+    }
+    /* Akhir Landing page */
+    /* About */
+    #About .aboutImg {
+        width: 250px;
+    }
+    .about-content {
+        color: #030303;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+    #About .slider {
+        margin-top: -150px;
+    }
+    #About .uk-card {
+        background-color: #91C789;
+        border-radius: 20px;
+        padding: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: white;
+    }
+    #About .uk-card H1 {
+        font-weight: bold;
+        font-size: 35px;
+    }
+    #About .uk-height-medium {
+        height: 200px;
+    }
+    /* end About */
+    /* Timeline */
+    #Timeline .timelineImg {
+        width: 250px;
+        margin-top: 100px;
+    }
+    #Timeline .timeline-tree {
+        width: 350px;
+        margin-top: 200px;
+    }
+    /* End Timeline */
+}
+
+@media (max-width: 480px) {
+    #nav-page a {
+        font-family: 'Roboto', sans-serif;
+        color: #54744F;
+        font-weight: bolder;
+        z-index: 1;
+        font-size: 9px;
+    }
+    #nav-page a:hover {
+        color: #FF6A3B;
+    }
+    .uk-navbar-nav li {
+        z-index: 1;
+        font-size: 10px;
+    }
+    .uk-navbar-nav li a:hover {
+        color: #FF6A3B;
+    }
+    .navbar-brand {
+        width: 50px;
+        margin-top: 10px;
+    }
+    .nav-backs {
+        background-image: linear-gradient(#FEFFDF, #92C889);
+        width: 50%;
+    }
+}
+
+@media (max-width: 360px) {
+    #landing-page {
+        width: 100%;
+        height: 100vh;
+        background-color: #D5ECC2;
+        overflow: hidden;
+        position: relative;
+        margin-top: -90px;
+    }
+    #nav-page a {
+        font-family: 'Roboto', sans-serif;
+        color: #54744F;
+        font-weight: bolder;
+        z-index: 1;
+        font-size: 9px;
+    }
+    #nav-page a:hover {
+        color: #FF6A3B;
+    }
+    .uk-navbar-nav li {
+        z-index: 1;
+        font-size: 10px;
+    }
+    .uk-navbar-nav li a:hover {
+        color: #FF6A3B;
+    }
+    .navbar-brand {
+        width: 50px;
+        margin-top: 10px;
+    }
+    .nav-backs {
+        background-image: linear-gradient(#FEFFDF, #92C889);
+        width: 50%;
+    }
+}
+
+@media only screen and (max-device-width: 768px) and (orientation:portrait) {
+    .main-img {
+        background-size: auto 100%;
+        background-position: center center;
+    }
+    .second-img {
+        background-size: auto 100%;
+        background-position: center;
+    }
+    .third-img {
+        background-size: auto 100%;
+        background-position: center left;
+    }
+}

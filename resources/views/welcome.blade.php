@@ -1,114 +1,167 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="image/logo.png" type="image" sizes="20x20">
-        <title>BAKTI UNAND 2022</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/uikit.min.css" />
-        <link rel="stylesheet" href="style/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+@extends('layouts.main')
 
+@section('landing-page')
+{{-- Landing Page --}}
+<section id="landing-page">
+  <div class="main-img">
+    <div class="back-container">
+      <div class="container text-center">
+        <div class="col-sm-12">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-6"></div>
 
-        <script src="js/uikit.min.js"></script>
-        <script src="js/uikit-icons.min.js"></script>
-    </head>
-   <body>
-
-    
-    {{-- Landing Page --}}
-
-    <section class="main-img" id="landing-page">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="image/logo.png" alt="BAKTI 2022" width="80" height="80">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <div class="row">
-        <div class="col-sm-6"></div>
-
-        <div class="col-sm-6">
-          <div id="welcome-info">
-            <div class="container text-center">
-                <h1>
-                    BAKTI
-                </h1>
-                <h2>
-                    UNIVERSITAS ANDALAS
-                </h2>
-                <h4>
-                    2022
-                </h4>
+              <div class="col-sm-6">
+                <div class="welcome-info">
+                  <div class="text-center">
+                    <h1>
+                      BAKTI
+                    </h1>
+                    <h2>
+                      UNIVERSITAS ANDALAS
+                    </h2>
+                    <h4>
+                      2022
+                    </h4>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+{{-- End Of landing Page --}}
 
-        
-    </section>
+@endsection
 
-    {{-- End Of landing Page --}}
 
-    {{-- About --}}
 
-    <section class="second-img">
-      <div id="test-target" class="uk-height-large uk-background-cover uk-light uk-flex " uk-parallax="bgy: -55">
-        <div class="col-sm-12">
-        <div class="container-fluid">
-          <div uk-parallax="target: #test-target; y: -10,40">
+@section('about')
+<section id="About">
+  <div class="col-sm-12">
+    <div id="test-target" class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: 20">
+      <div class="col-sm-12">
+        <div class="second-img container-fluid">
+          <div uk-parallax="target: #test-target; y: -10,200">
             <img class="aboutImg uk-position-right" src="image/ApaItuBakti.png" alt="">
+            <div class="col-sm-12">
+              <p id="test-target" class=" text-center uk-flex-center@m about-content uk-height-large uk-background-cover uk-light uk-flex " uk-parallax="target: #test-target; y: 100,40">
+                BAKTI (Bimbingan Aktivitas Kemahasiswaan dalam Tradisi Ilmiah) adalah<br> kegiatan pengenalan terhadap program pendidikan, tradisi ilmiah dan <br> pembinaan kegiatan kemahasiswaan di perguruan tinggi bagi mahasiswa <br> baru Universitas Andalas
+              </p>
+            </div>
+
+            <div class="col-sm-12">
+              <div class="container">
+                <div class="">
+                  <div class="uk-position-bottom uk-visible-toggle uk-light" tabindex="-1" uk-slider>
+
+                    <ul class="uk-slider-items uk-child-width-1-3@m" uk-grid uk-height-match="target: > div > div > div > .uk-card-small; row: false">
+                      <li>
+                        <div class="uk-panel">
+                          <div class="uk-card uk-card-small uk-height-medium uk-card-hover uk-card-body">
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-sm-2">
+                                  <h1>1</h1>
+                                </div>
+                                <div class="col">
+                                  <p>Setiap mahasiswa atau mahasiswi baru Universitas Andalas wajib mengikuti rangkaian kegiatan ini.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="uk-panel">
+                          <div class="uk-card uk-card-small uk-height-medium uk-card-hover uk-card-body">
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-sm-2">
+                                  <h1>2</h1>
+                                </div>
+                                <div class="col">
+                                  <p>Mahasiswa atau mahasiswi baru Universitas Andalas akan didampingi oleh uda dan uni mentor yang siap membantu serta mendampingi dalam rangkaian kegiatan BAKTI berlangsung.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="uk-panel">
+                          <div class="uk-card uk-card-small uk-height-medium uk-card-hover uk-card-body">
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-sm-2">
+                                  <h1>3</h1>
+                                </div>
+                                <div class="col">
+                                  <p>Setiap mahasiswa baru Universitas Andalas akan diberikan penugasan selama rangkaian kegiatan BAKTI Universitas Andalas tahun 2021.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="uk-panel">
+                          <div class="uk-card uk-card-small uk-height-medium uk-card-hover uk-card-body">
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-sm-2">
+                                  <h1>4</h1>
+                                </div>
+                                <div class="col">
+                                  <p>Menanamkan nilai-nilai Andalasian Character kepada mahasiswa baru.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
-        <div class="container">
-          <p id="test-target" class="text-center about-content uk-height-large uk-background-cover uk-light uk-flex " uk-parallax="target: #test-target; y: 100,40">
-            BAKTI (Bimbingan Aktivitas Kemahasiswaan dalam Tradisi Ilmiah) adalah<br> kegiatan pengenalan terhadap program pendidikan, tradisi ilmiah dan <br> pembinaan kegiatan kemahasiswaan di perguruan tinggi bagi mahasiswa <br> baru Universitas Andalas 
-          </p>
-        </div>  
-        </div> 
-        
+      </div>
     </div>
-    </section>
+  </div>
+</section>
+@endsection
 
-    {{-- End About --}}
 
+@section('timeline')
+{{-- Timeline --}}
 
-    {{-- Timeline --}}
-    {{-- <section>
-      <div id="test-target" class="third-img uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -80">
+<section id="Timeline" class="third-img">
+  <div id="test-target" class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: 20">
+    <div class="col-sm-12">
+      <div class="third-img container-fluid">
+        <div uk-parallax="target: #test-target; y: -10,200">
+          <img class="timelineImg uk-position-left" src="image/TimelineJudul.png" alt="">
 
-        <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="target: #test-target; y: -100,10">Headline</h1>
-    
+          <div class="col-sm-12">
+            <div class="container d-flex justify-content-center">
+              <img uk-parallax="opacity: 0,1; scale: 1.5,1; end: 50vh + 50%;" class="timeline-tree" src="image/tree.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    </section> --}}
-    {{-- End Timeline --}}
-   
-    <script src="https://kit.fontawesome.com/ddc2e77247.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-   </body>
-</html>
+  </div>
+</section>
+
+{{-- End Timeline --}}
+@endsection
