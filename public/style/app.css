@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    display: block;
+}
+
+.first-img {
+    background-image: url("/image/sambutan.png");
+    height: 100vh;
+    width: 100vw;
+    background-color: #daefca;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.sec-img {
+    background-image: url("/image/peta.png");
+    height: 100vh;
+    width: 100vw;
+    background-color: #d6e7cf;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.third-img {
+    background-image: url("/image/merchandise.png");
+    height: 190vh;
+    width: 91,5vw;
+    background-color: #d5ded5;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.four-img {
+    background-image: url("/image/gallery.png");
+    height: 100vh;
+    width: 100vw;
+    background-color: #d1cacf;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.five-img {
+    background-image: url("/image/filosofi.png");
+    height: 100vh;
+    width: 100vw;
+    background-color: #d4e0d4;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.six-img {
+    background-image: url("/image/fakultas.png");
+    height: 200vh;
+    width: 98,5vw;
+    background-color: #d4e0d4;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.seven-img {
+    background-image: url("/image/anthem.png");
+    height: 100vh;
+    width: 100vw;
+    background-color: #d4e0d4;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.info
+{
+    font-size:18px;
+    font-weight:800;
+    margin-top:10px;
+    border-radius: 20px;
+    background-color: #54744F;
+    color:white;
+}
+
+.info2
+{
+    font-size:18px;
+    font-weight:800;
+    margin-top:10px;
+    margin-left:970px;
+    border-radius: 20px;
+    border:0px;
+    background-color: #54744F;
+    color:white;
+}
+
+.info3
+{
+    font-size:18px;
+    font-weight:800;
+    margin-top:10px;
+    margin-left:940px;
+    border-radius: 20px;
+    border:0px;
+    background-color: #54744F;
+    color:white;
+}
+
+.info4
+{
+    font-size:18px;
+    font-weight:800;
+    margin-top:10px;
+    margin-left:1030px;
+    border-radius: 20px;
+    border:0px;
+    background-color: #54744F;
+    color:white;
+}
+
+p{
+    color:black;
+    font-size:14px; 
+    font-weight: lighter; 
+    padding-left:10px
+}
+@media screen and (max-width:991.98px){
+    
+}

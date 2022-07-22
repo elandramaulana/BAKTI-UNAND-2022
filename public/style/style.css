@@ -32,6 +32,16 @@
     background-size: 100%;
 }
 
+.fourth-img {
+    background-image: url("/image/sambutan.png");
+    height: 100vh;
+    width: 100vw;
+    /* background-attachment: fixed; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .img-logo {
     padding-top: 20px;
     margin-left: -54px;
