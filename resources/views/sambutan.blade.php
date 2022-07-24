@@ -71,7 +71,7 @@
                 <video src="https://yootheme.com/site/images/media/yootheme-pro.mp4" width="400" height="300" loop muted playsinline uk-video="autoplay: inview"></video>
             </div>
             <div class="ket">
-                <h4 class="mt-5"><b>Prof. Dr. Yuliandri, SH, MH<br>Rektor Universitas Andalas</h4>
+                <h5 class="mt-5"><b>Prof. Dr. Yuliandri, SH, MH<br>Rektor Universitas Andalas</h5>
             </div>
         </div>
         <div>
@@ -79,7 +79,7 @@
                 <video src="https://yootheme.com/site/images/media/yootheme-pro.mp4" width="400" height="300" loop muted playsinline uk-video="autoplay: inview"></video>
             </div>
             <div class="ket">
-                <h4 class="mt-5"><b>Agib Zainuranda<br>Ketua Pelaksana BAKTI 2022</h4>
+                <h5 class="mt-5"><b>Agib Zainuranda<br>Ketua Pelaksana BAKTI 2022</h5>
             </div>
         </div>
     </div>

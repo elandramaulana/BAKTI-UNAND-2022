@@ -84,9 +84,10 @@
                   </div>
                 </div>
 
-                <a class="uk-button uk-button-default" href="#modal-center" uk-toggle>Open</a>
+               <a class="uk-button uk-button-default" href="#modal-center" uk-toggle>Open</a>
 
-                <div id="modal-center" class="uk-flex-top" uk-modal width="800">
+
+                <div id="modal-center" class="uk-flex-top" uk-modal width="800" show>
                     <div class="uk-modal-dialog uk-modal-body uk-auto-vertical"  align="center">
 
                         <button class="uk-modal-close-default" type="button" uk-close></button>
@@ -118,12 +119,14 @@
                       </div>
                     </div>
                 </div>
-              </div>
+                
+              </div> 
             </div>
           </div>
         </div>
       </div>
     </div>
+
   </section>
 
   
@@ -132,6 +135,8 @@
   <script src="bootstrap/js/bootstrap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
-
+  <script type="text/javascript">
+    $('#modal-cente').modal('show');
+   </script>
   </body>
 </html>

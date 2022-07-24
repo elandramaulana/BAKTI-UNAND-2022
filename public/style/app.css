@@ -49,8 +49,8 @@ div {
 
 .five-img {
     background-image: url("/image/filosofi.png");
-    height: 100vh;
-    width: 100vw;
+    height: 140vh;
+    width: 98,2vw;
     background-color: #d4e0d4;
     background-position: center center;
     background-repeat: no-repeat;
@@ -78,8 +78,8 @@ div {
 
 .eight-img {
     background-image: url("/image/maskot.png");
-    height: 100vh;
-    width: 100vw;
+    height: 250vh;
+    width: 98,2vw;
     background-color: #d4e0d4;
     background-position: center center;
     background-repeat: no-repeat;

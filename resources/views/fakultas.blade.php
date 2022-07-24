@@ -71,81 +71,81 @@
                 <div class="uk-card uk-card-default mt-3 uk-transition-toggle" tabindex="0">
                     <img  src="image/cover.png" width="250px" height="160px" alt="">
                     <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png" width="250px" height="160px" alt="">
-                    <p>Faperta<p>
+                    <p class="mt-3">Faperta<p>
                 </div>
                 <div class="uk-card uk-card-default mt-3 uk-transition-toggle" tabindex="0" style="margin-left:30px;">
                     <img  src="image/cover.png" width="250px" height="160px" alt="">
                     <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png" width="250px" height="160px" alt="">
-                    <p>Farmasi<p>
+                    <p class="mt-3">Farmasi<p>
                 </div>
                 <div class="uk-card uk-card-default mt-3 uk-transition-toggle" tabindex="0" style="margin-left:30px;">
                     <img  src="image/cover.png" width="250px" height="160px" alt="">
                     <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png" width="250px" height="160px" alt="">
-                    <p>Fateta<p>
+                    <p class="mt-3">Fateta<p>
                 </div>
                 <div class="uk-card uk-card-default mt-3 uk-transition-toggle" tabindex="0" style="margin-left:30px;">
                     <img  src="image/cover.png" width="250px" height="160px" alt="">
                     <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png" width="250px" height="160px" alt="">
-                    <p>Faterna<p>
+                    <p class="mt-3">Faterna<p>
                 </div>
                 <div class="uk-card uk-card-default mt-3 uk-transition-toggle" tabindex="0" style="margin-left:30px;">
                     <img  src="image/cover.png" width="250px" height="160px" alt="">
                     <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png" width="250px" height="160px" alt="">
-                    <p>FEB<p>
+                    <p class="mt-3">FEB<p>
                 </div>
             </div>
             <div class="uk-flex mt-3">
                 <div class="uk-card uk-card-default mt-3 uk-transition-toggle" tabindex="0">
                     <img  src="image/cover.png"  width="250px" height="160px" alt="">
                     <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png"  width="250px" height="160px" alt="">
-                    <p>FH<p>
+                    <p class="mt-3">FH<p>
                 </div>
                 <div class="uk-card uk-card-default mt-3 uk-transition-toggle" tabindex="0" style="margin-left:30px;">
                     <img  src="image/cover.png"  width="250px" height="160px" alt="">
                     <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png"  width="250px" height="160px" alt="">
-                    <p>FIB<p>
+                    <p class="mt-3">FIB<p>
                 </div>
                 <div class="uk-card uk-card-default mt-3 uk-transition-toggle" tabindex="0" style="margin-left:30px;">
                     <img  src="image/cover.png"  width="250px" height="160px" alt="">
                     <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png"  width="250px" height="160px" alt="">
-                    <p>FISIP<p>
+                    <p class="mt-3">FISIP<p>
                 </div>
                 <div class="uk-card uk-card-default mt-3 uk-transition-toggle" tabindex="0" style="margin-left:30px;">
                     <img  src="image/cover.png"  width="250px" height="160px" alt="">
                     <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png"  width="250px" height="160px" alt="">
-                    <p>FK<p>
+                    <p class="mt-3">FK<p>
                 </div>
                 <div class="uk-card uk-card-default mt-3 uk-transition-toggle" tabindex="0" style="margin-left:30px;">
                     <img  src="image/cover.png"  width="250px" height="160px" alt="">
                     <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png"  width="250px" height="160px" alt="">
-                    <p>FKEP<p>
+                    <p class="mt-3">FKEP<p>
                 </div>
             </div>
             <div class="uk-flex mt-3">
                 <div class="uk-card uk-card-default mt-3 uk-transition-toggle" tabindex="0">
                     <img  src="image/cover.png"  width="250px" height="160px" alt="">
                     <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png" width="270px" height="160px" alt="">
-                    <p>FKG<p>
+                    <p class="mt-3">FKG<p>
                 </div>
                 <div class="uk-card uk-card-default mt-3 uk-transition-toggle" tabindex="0" style="margin-left:30px;">
                     <img  src="image/cover.png"  width="250px" height="160px" alt="">
                     <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png"  width="250px" height="160px" alt="">
-                    <p>FKM<p>
+                    <p class="mt-3">FKM<p>
                 </div>
                 <div class="uk-card uk-card-default mt-3 uk-transition-toggle" tabindex="0" style="margin-left:30px;">
                     <img  src="image/cover.png"  width="250px" height="160px" alt="">
                     <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png"  width="250px" height="160px" alt="">
-                    <p>FMIPA<p>
+                    <p class="mt-3">FMIPA<p>
                 </div>
                 <div class="uk-card uk-card-default mt-3 uk-transition-toggle" tabindex="0" style="margin-left:30px;">
                     <img  src="image/cover.png"  width="250px" height="160px" alt="">
                     <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png"  width="250px" height="160px" alt="">
-                    <p>FT<p>
+                    <p class="mt-3">FT<p>
                 </div>
                 <div class="uk-card uk-card-default mt-3 uk-transition-toggle" tabindex="0" style="margin-left:30px;">
                     <img  src="image/cover.png"  width="250px" height="160px" alt="">
                     <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png"  width="250px" height="160px" alt="">
-                    <p>FTI<p>
+                    <p class="mt-3">FTI<p>
                 </div>
             </div>
         </div>

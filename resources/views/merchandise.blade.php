@@ -65,7 +65,7 @@
         <button class="uk-button uk-button-default uk-button-large info4" >Merchandise</button>
     </p>
 
-    <h4 style="margin-left:20px"><b>Pilihan Paket</h4>
+    <h5 style="margin-left:20px"><b>Pilihan Paket</h5>
         <div class="uk-slider-container-offset" uk-slider>
 
             <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" style="margin:0 30px">
@@ -112,7 +112,7 @@
 
 
         
-    <h4 style="margin-left:20px"><b>Koleksi Merchandise</h4>
+    <h5 style="margin-left:20px"><b>Koleksi Merchandise</h5>
         <div class="uk-child-width-expand@s" uk-grid style="margin:0 20px;">
             <div>
                 <div class="uk-flex mt-3">

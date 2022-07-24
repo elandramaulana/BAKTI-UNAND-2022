@@ -66,17 +66,18 @@
           <button class="uk-button uk-button-default uk-button-large info">Maskot BAKTI</button>
     </p>
   
+    <p uk-margin style="margin-left:30%">
+      <button class="uk-button uk-button-default uk-button-large info5">ANAN</button>
+    </p>
+
     <div class="uk-overflow-auto">
         <table class="uk-table uk-table-hover uk-table-middle uk-table-divider">
             <thead>
                 <tr>
-                    <th width="400px">
-                        <img src="image/ganan.png" width="300px" height="600px" style="margin-left:50px; margin-right:50px" alt="">
+                    <th width="30%">
+                        <img src="image/anan.png" width="200px" height="400px" style="margin-left:50px; margin-right:50px" alt="">
                     </th>
-                    <th class="uk-table-expand">
-                        <p uk-margin>
-                            <button class="uk-button uk-button-default uk-button-large info5">GANAN</button>
-                        </p>
+                    <th class="uk-table-expand"  width="70%">
 
                         <h5 style="margin-right:50px"><b>Baju Silat</h5>
                         <h6>Perwajahan mahasiswa baru yang harus memiliki  bekal menjaga diri</h6><br>
@@ -85,12 +86,63 @@
                         <h6>Replikasi atap rumah adat minangkabau, rumah gadang</h6><br>
 
                         <h5><b>Pose</h5>
-                        <h6>Menyilangkan tangan berarti ketahanan dan jari 2 ditangan kiri dan jari 2 <br>ditangan kanan melambangkan angkatan 2022</h6><br><br>
+                        <h6>Menyilangkan tangan berarti ketahanan dan jari 2 ditangan kiri dan kanan melambangkan angkatan 2022.</h6><br><br>
                     </th>
                 </tr>
             </thead>
         </table>
-    </div> 
+
+        <p uk-margin style="margin-left:30%">
+          <button class="uk-button uk-button-default uk-button-large info5">TINAN</button>
+        </p>
+
+        <table class="uk-table uk-table-hover uk-table-middle uk-table-divider" style="padding:0 60px">
+          <thead>
+              <tr>
+                  <th class="uk-table-expand">
+                      <div style="margin-left:100px">
+                      <h5 style="margin-right:50px"><b>Almamater</h5>
+                      <h6>Perwajahan mahasiswa baru yang harus memiliki  bekal menjaga diri.</h6><br>
+
+                      <h5><b>Kepala</h5>
+                      <h6>Bentuk kepala meyerupai ciri khas gedung Universitas Andalas.</h6><br>
+
+                      <h5><b>Pose</h5>
+                      <h6>Melambangkan semangat perjuangan dan pergerakan seorang mahasiswa seolah menyorakkan “Hidup mahasiswa! Hidup rakyat Indonesia!”.</h6><br><br>
+                      </div>
+                    </th>
+                  <th width="400px">
+                    <img src="image/tinan.png" width="200px" height="400px" style="margin-left:50px; margin-right:50px" alt="">
+                  </th>
+              </tr>
+          </thead>
+        </table>
+
+        <p uk-margin style="margin-left:30%">
+          <button class="uk-button uk-button-default uk-button-large info5">GANAN</button>
+        </p>
+
+        <table class="uk-table uk-table-hover uk-table-middle uk-table-divider">  
+        <thead>
+            <tr>
+                <th width="400px">
+                    <img src="image/ganan.png" width="250px" height="280px" style="margin-left:50px; margin-right:50px" alt="">
+                </th>
+                <th class="uk-table-expand">
+
+                    <h5 style="margin-right:50px"><b>Baju Silat</h5>
+                    <h6>Perwajahan mahasiswa baru yang harus memiliki  bekal menjaga diri</h6><br>
+
+                    <h5><b>Kepala</h5>
+                    <h6>Replikasi atap rumah adat minangkabau, rumah gadang</h6><br>
+
+                    <h5><b>Pose</h5>
+                    <h6>Menyilangkan tangan berarti ketahanan dan jari 2 ditangan kiri dan jari 2 <br>ditangan kanan melambangkan angkatan 2022</h6><br><br>
+                </th>
+            </tr>
+        </thead>
+    </table>
+
       </section>
 
   <!-- JavaScript Bundle with Popper -->
