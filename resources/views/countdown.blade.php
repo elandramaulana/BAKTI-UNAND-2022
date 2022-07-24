@@ -98,23 +98,23 @@
 
                         <div class="uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: 2022-08-14T02:42:08+00:00" style="margin-left:16px;margin-top:40px">
                           <div style="background-color:#54744F;padding:8px 8px 8px 8px;border-radius:10px">
-                              <div class="uk-countdown-number uk-countdown-days" style="background-color:#54744F;color:white;margin-bottom:10px;font-size:80px"></div>
-                              <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s" style="background-color:#91C789;color:white;margin-top:10px;border-radius:10px">DAYS</div>
+                              <div class="uk-countdown-number uk-countdown-days" style="background-color:#54744F;color:white;margin-bottom:10px;font-size:50px"></div>
+                              <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s" style="background-color:#91C789;color:white;margin-top:10px;border-radius:10px;font-size:15px;padding:0 21px">DAYS</div>
                           </div>
                           <div class="uk-countdown-separator" style="margin-right:10px">:</div>
                           <div style="background-color:#54744F;padding:8px 8px 8px 8px;border-radius:10px">
-                              <div class="uk-countdown-number uk-countdown-hours"style="background-color:#54744F;color:white;margin-bottom:10px;font-size:80px"></div>
-                              <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s" style="background-color:#91C789;color:white;margin-top:10px;border-radius:10px">HOURS</div>
+                              <div class="uk-countdown-number uk-countdown-hours"style="background-color:#54744F;color:white;margin-bottom:10px;font-size:50px"></div>
+                              <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s" style="background-color:#91C789;color:white;margin-top:10px;border-radius:10px;font-size:15px;padding:0 14px">HOURS</div>
                           </div>
                           <div class="uk-countdown-separator" style="margin-right:10px">:</div>
                           <div style="background-color:#54744F;padding:8px 8px 8px 8px;border-radius:10px">
-                              <div class="uk-countdown-number uk-countdown-minutes" style="background-color:#54744F;color:white;margin-bottom:10px;font-size:80px"></div>
-                              <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s" style="background-color:#91C789;color:white;margin-top:10px;border-radius:10px">MINUTES</div>
+                              <div class="uk-countdown-number uk-countdown-minutes" style="background-color:#54744F;color:white;margin-bottom:10px;font-size:50px"></div>
+                              <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s" style="background-color:#91C789;color:white;margin-top:10px;border-radius:10px;font-size:15px;padding:0 8px">MINUTES</div>
                           </div>
                           <div class="uk-countdown-separator" style="margin-right:10px">:</div>
                           <div style="background-color:#54744F;padding:8px 8px 8px 8px;border-radius:10px">
-                              <div class="uk-countdown-number uk-countdown-seconds" style="background-color:#54744F;color:white;margin-bottom:10px;font-size:80px"></div>
-                              <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s" style="background-color:#91C789;color:white;margin-top:10px;border-radius:10px">SECONDS</div>
+                              <div class="uk-countdown-number uk-countdown-seconds" style="background-color:#54744F;color:white;margin-bottom:10px;font-size:50px"></div>
+                              <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s" style="background-color:#91C789;color:white;margin-top:10px;border-radius:10px;font-size:15px;padding:0 5px">SECONDS</div>
                           </div>
                       </div>
                     </div>

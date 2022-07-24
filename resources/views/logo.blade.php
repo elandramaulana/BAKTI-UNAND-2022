@@ -64,7 +64,7 @@
         <button class="uk-button uk-button-default uk-button-large info4">Filosofi Logo</button>
     </p>
 
-    <img src="image/logoA.png" href="#modal-center0"uk-toggle  width="300px" height="300px" style="margin-left:37%; margin-top:22px;margin-right:50px" alt="">
+    <img src="image/logoA.png" href="#modal-center0" uk-toggle class="logoo" width="300px" height="300px" style="display:block; margin-left:auto;margin-right:auto;" alt="">
     <div id="modal-center0" class="uk-flex-top" uk-modal>
         <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical" align="center" style="border-radius:20px">
             <button class="uk-modal-close-default" type="button" uk-close></button>
