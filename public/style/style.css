@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    display: block;
+}
+
 
 /* Landing Page */
 
@@ -56,6 +65,15 @@
     background-size: 100%;
 }
 
+.first-img {
+    background-image: url("/image/sambutan.png");
+    height: 150vh;
+    width: 100vw;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .second-img {
     background-image: url("/image/about.png");
     height: 100vh;
@@ -71,6 +89,85 @@
     height: 150vh;
     width: 100vw;
     /* background-attachment: fixed; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.fourth-img {
+    background-image: url("/image/sambutan.png");
+    height: 100vh;
+    width: 100vw;
+    /* background-attachment: fixed; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.fifth-img {
+    background-image: url("/image/merchandise.png");
+    height: 190vh;
+    width: 99, 1vw;
+    background-color: #d5ded5;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.sixth-img {
+    background-image: url("/image/gallery.png");
+    height: 140vh;
+    width: 100vw;
+    background-color: #d1cacf;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.seventh-img {
+    background-image: url("/image/filosofi.png");
+    height: 100vh;
+    width: 100vw;
+    background-color: #d4e0d4;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.eight-img {
+    background-image: url("/image/fakultas.png");
+    height: 185vh;
+    width: 98, 5vw;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.ninth-img {
+    background-image: url("/image/anthem.png");
+    height: 100vh;
+    width: 100vw;
+    background-color: #d4e0d4;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.tenth-img {
+    background-image: url("/image/maskot.png");
+    height: 270vh;
+    width: 100vw;
+    background-color: #d4e0d4;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.eleventh-img {
+    background-image: url("/image/peta.png");
+    height: 100vh;
+    width: 100vw;
+    background-color: #d6e7cf;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -133,7 +230,7 @@
     width: 350px;
 }
 
-.about-content {
+#About h2 {
     color: #030303;
     font-family: 'Roboto', sans-serif;
     font-size: 28px;
@@ -148,9 +245,12 @@
     background-color: #91C789;
     border-radius: 20px;
     padding: 20px;
+}
+
+#About p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    color: white
+    color: white;
 }
 
 #About .uk-card H1 {
@@ -180,6 +280,178 @@
 
 
 /* End Timeline */
+
+
+/* Maskot */
+
+#maskot {
+    margin-top: -100px;
+}
+
+.maskot-label {
+    width: 350px;
+    margin-top: 80px;
+}
+
+.maskot-img {
+    width: 450px;
+    margin-top: 10px;
+}
+
+.maskot-slider {
+    margin-top: 100px;
+}
+
+.filosofi {
+    margin-top: 50px;
+}
+
+#maskot .card {
+    background-color: #91C789;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 10rem;
+}
+
+#maskot .card-title {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 29px;
+    font-weight: 800;
+}
+
+
+/* End Maskot */
+
+
+/* Peta */
+
+#peta {
+    margin-top: -100px;
+}
+
+.peta-label {
+    width: 350px;
+    margin-top: 80px;
+}
+
+
+/* end Peta */
+
+
+/* Sambutan */
+
+#sambutan {
+    margin-top: -100px;
+}
+
+.sambutan-label {
+    width: 350px;
+    margin-top: 80px;
+}
+
+#sambutan .card1 {
+    margin-top: 250px;
+    background-color: white;
+}
+
+#sambutan .card2 {
+    margin-top: 250px;
+    background-color: white;
+}
+
+.nama-sambutan {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* end sambutan  */
+
+
+/* Fakultas dan Jurusan */
+
+#fakultas {
+    margin-top: -200px;
+}
+
+.fakultas-label {
+    width: 350px;
+    margin-top: 80px;
+}
+
+.card-fakultas {
+    margin-top: 250px;
+}
+
+
+/* End Fakultas dan Jurusan */
+
+
+/* UKM */
+
+#ukm {
+    margin-top: -100px;
+}
+
+.ukm-label {
+    width: 350px;
+    margin-top: 80px;
+}
+
+.ukm-pos {
+    margin-top: 200px;
+}
+
+
+/* end UKM */
+
+
+/* Anthem */
+
+#anthem {
+    margin-top: -100px;
+}
+
+.anthem-label {
+    width: 350px;
+    margin-top: 80px;
+}
+
+.anthem-pos {
+    margin-top: 200px;
+}
+
+.anthem-judul h4 {
+    font-size: 26px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Gallery */
+
+#gallery {
+    margin-top: -100px;
+}
+
+.gallery-label {
+    width: 350px;
+    margin-top: 80px;
+}
+
+.gal-pos1 {
+    margin-top: 200px;
+}
+
+.gal-pos2 {
+    margin-top: 240px;
+}
+
+
+/* End Gallery */
+
+
+/* End Anthem */
 
 @media (max-width: 1024px) {
     /* Landing Page */
@@ -264,6 +536,18 @@
         font-weight: bold;
         font-size: 35px;
     }
+    #About p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: white;
+    }
+    #About h2 {
+        color: #030303;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        margin-bottom: 100px;
+        padding: 2px;
+    }
     #About .uk-height-medium {
         height: 200px;
     }
@@ -278,6 +562,102 @@
         margin-top: 200px;
     }
     /* End Timeline */
+    /* Maskot */
+    .maskot-label {
+        width: 250px;
+        margin-top: 70px;
+    }
+    .maskot-img {
+        width: 100px;
+        margin-top: 10px;
+    }
+    .filosofi h5 {
+        font-size: 18px;
+        margin-top: -25px;
+    }
+    .filosofi h6 {
+        font-size: 14px;
+    }
+    #maskot .card {
+        background-color: #91C789;
+        border-radius: 20px;
+        margin-top: -10px;
+        width: 100px;
+        height: 60px;
+    }
+    #maskot .card-title {
+        font-family: 'Inter', sans-serif;
+        color: white;
+        font-size: 18px;
+        font-weight: 800;
+    }
+    /* End Maskot */
+    /* peta */
+    .peta-label {
+        width: 220px;
+        margin-top: 70px;
+        z-index: 1;
+    }
+    #peta .uk-card {
+        margin-top: 15px;
+    }
+    /* end peta */
+    /* Sambutan */
+    .sambutan-label {
+        width: 250px;
+        margin-top: 70px;
+    }
+    #sambutan .card1 {
+        margin-top: 150px;
+        background-color: white;
+    }
+    #sambutan .card2 {
+        margin-top: 100px;
+        background-color: white;
+    }
+    /* sambutan */
+    /* fakultas */
+    .card-fakultas {
+        margin-top: 10px;
+    }
+    /* end fakultas */
+    /* UKM */
+    .ukm-label {
+        width: 250px;
+        margin-top: 80px;
+    }
+    .ukm-pos {
+        margin-top: 250px;
+    }
+    #ukm h3 {
+        font-size: 12px;
+    }
+    /* end UKM */
+    /* Anthem */
+    .anthem-label {
+        width: 250px;
+        margin-top: 80px;
+    }
+    .anthem-pos {
+        margin-top: 200px;
+    }
+    .anthem-judul h4 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    /* end Anthem */
+    /* Gallery */
+    .gallery-label {
+        width: 250px;
+        margin-top: 80px;
+    }
+    .gal-pos1 {
+        margin-top: 150px;
+    }
+    .gal-pos2 {
+        margin-top: 70px;
+    }
+    /* end Gallery */
 }
 
 @media (max-width: 480px) {
@@ -349,6 +729,10 @@
         background-size: auto 100%;
         background-position: center center;
     }
+    .first-img {
+        background-size: auto 100%;
+        background-position: center center;
+    }
     .second-img {
         background-size: auto 100%;
         background-position: center;
@@ -356,5 +740,21 @@
     .third-img {
         background-size: auto 100%;
         background-position: center left;
+    }
+    .sixth-img {
+        background-size: auto 100%;
+        background-position: center center;
+    }
+    .eight-img {
+        background-size: auto 100%;
+        background-position: left top;
+    }
+    .ninth-img {
+        background-size: auto 100%;
+        background-position: left bottom;
+    }
+    .tenth-img {
+        background-size: auto 100%;
+        background-position: center right;
     }
 }

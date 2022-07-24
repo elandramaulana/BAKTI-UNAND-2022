@@ -46,11 +46,11 @@
       <div class="col-sm-12">
         <div class="second-img container-fluid">
           <div uk-parallax="target: #test-target; y: -10,200">
-            <img class="aboutImg uk-position-right" src="image/ApaItuBakti.png" alt="">
+            <img class="aboutImg uk-position-right" src="image/about-label.png" alt="">
             <div class="col-sm-12">
-              <p id="test-target" class=" text-center uk-flex-center@m about-content uk-height-large uk-background-cover uk-light uk-flex " uk-parallax="target: #test-target; y: 100,40">
+              <h2 id="test-target" class=" text-center uk-flex-center@m about-content uk-height-large uk-background-cover uk-light uk-flex " uk-parallax="target: #test-target; y: 100,40">
                 BAKTI (Bimbingan Aktivitas Kemahasiswaan dalam Tradisi Ilmiah) adalah<br> kegiatan pengenalan terhadap program pendidikan, tradisi ilmiah dan <br> pembinaan kegiatan kemahasiswaan di perguruan tinggi bagi mahasiswa <br> baru Universitas Andalas
-              </p>
+              </h2>
             </div>
 
             <div class="col-sm-12">
@@ -150,7 +150,7 @@
     <div class="col-sm-12">
       <div class="third-img container-fluid">
         <div uk-parallax="target: #test-target; y: -10,200">
-          <img class="timelineImg uk-position-left" src="image/TimelineJudul.png" alt="">
+          <img class="timelineImg uk-position-left" src="image/timeline-label.png" alt="">
 
           <div class="col-sm-12">
             <div class="container d-flex justify-content-center">

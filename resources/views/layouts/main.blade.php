@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/uikit.min.css" />
   <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/app.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
@@ -71,6 +72,23 @@
   @yield('about')
 
   @yield('timeline')
+
+  @yield('maskot')
+
+  @yield('peta')
+
+  @yield('sambutan')
+
+  @yield('fakultas')
+
+  @yield('ukm')
+
+  @yield('anthem')
+
+  @yield('gallery')
+
+
+
 
 
 
