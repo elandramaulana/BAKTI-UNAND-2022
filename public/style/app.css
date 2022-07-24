@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .info {
     font-size: 18px;
     font-weight: 800;
@@ -53,3 +54,172 @@ p {
 }
 
 @media screen and (max-width:991.98px) {}
+=======
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    display: block;
+}
+
+.first-img {
+    background-image: url("/image/sambutan.png");
+    height: 100vh;
+    width: 100vw;
+    background-color: #daefca;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.sec-img {
+    background-image: url("/image/peta.png");
+    height: 100vh;
+    width: 100vw;
+    background-color: #d6e7cf;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.third-img {
+    background-image: url("/image/merchandise.png");
+    height: 190vh;
+    width: 99,1vw;
+    background-color: #d5ded5;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.four-img {
+    background-image: url("/image/gallery.png");
+    height: 100vh;
+    width: 100vw;
+    background-color: #d1cacf;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.five-img {
+    background-image: url("/image/filosofi.png");
+    height: 140vh;
+    width: 98,2vw;
+    background-color: #d4e0d4;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.six-img {
+    background-image: url("/image/fakultas.png");
+    height: 185vh;
+    width: 98,5vw;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.seven-img {
+    background-image: url("/image/anthem.png");
+    height: 100vh;
+    width: 100vw;
+    background-color: #d4e0d4;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.eight-img {
+    background-image: url("/image/maskot.png");
+    height: 250vh;
+    width: 98,2vw;
+    background-color: #d4e0d4;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.info
+{
+    font-size:18px;
+    font-weight:800;
+    border-radius: 20px;
+    background-color: #54744F;
+    color:white;
+}
+
+.info2
+{
+    font-size:18px;
+    font-weight:800;
+    margin-left:940px;
+    border-radius: 20px;
+    border:0px;
+    background-color: #54744F;
+    color:white;
+}
+
+.info3
+{
+    font-size:18px;
+    font-weight:800;
+    margin-left:940px;
+    border-radius: 20px;
+    border:0px;
+    background-color: #54744F;
+    color:white;
+}
+
+.info4
+{
+    font-size:18px;
+    font-weight:800;
+    margin-left:1020px;
+    border-radius: 20px;
+    border:0px;
+    background-color: #54744F;
+    color:white;
+}
+
+.info5
+{
+    font-size:18px;
+    font-weight:800;
+    border-radius: 20px;
+    background-color: #91C789;
+    color:white;
+    display:block; 
+    margin-left:auto;
+    margin-right:auto;
+}
+
+p{
+    color:black;
+    font-size:14px; 
+    font-weight: lighter; 
+    padding-left:10px
+}
+@media screen and (max-width:991.98px){
+.row{
+    flex-direction: column;
+    align-items:center;
+    width:100%;
+}
+
+.col{
+    width:100%;
+}
+
+.info4{
+    margin-left:10px
+}
+
+.container-fluid{
+    height:80px;
+}
+}
+>>>>>>> 99c6002c77cb12cb15b422c4137438f5decee21e

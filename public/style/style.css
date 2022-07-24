@@ -104,6 +104,7 @@ div {
     background-size: 100%;
 }
 
+<<<<<<< HEAD
 .fifth-img {
     background-image: url("/image/merchandise.png");
     height: 190vh;
@@ -173,6 +174,8 @@ div {
     background-size: 100%;
 }
 
+=======
+>>>>>>> 99c6002c77cb12cb15b422c4137438f5decee21e
 .img-logo {
     padding-top: 20px;
     margin-left: -54px;
