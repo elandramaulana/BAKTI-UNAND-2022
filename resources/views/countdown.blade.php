@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style/app.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   
@@ -21,6 +22,7 @@
   
     <script src="js/uikit.min.js"></script>
     <script src="js/uikit-icons.min.js"></script>
+
   </head>
 
 <body> 
@@ -84,8 +86,6 @@
                   </div>
                 </div>
 
-               <a class="uk-button uk-button-default" href="#modal-center" uk-toggle>Open</a>
-
 
                 <div id="modal-center" class="uk-flex-top" uk-modal width="800" show>
                     <div class="uk-modal-dialog uk-modal-body uk-auto-vertical"  align="center">
@@ -129,14 +129,19 @@
 
   </section>
 
-  
+  <script>
+    UIkit.util.ready(function(){
+      setTimeout(function(){
+        UIkit.modal('#modal-center').show();
+      },1000);
+    });
+  </script>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
-  <script type="text/javascript">
-    $('#modal-cente').modal('show');
-   </script>
+  
   </body>
 </html>
