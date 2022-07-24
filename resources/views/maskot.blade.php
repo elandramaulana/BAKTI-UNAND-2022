@@ -74,7 +74,7 @@
       <div class="col-4">
         <img src="image/anan.png" width="200px" height="400px" alt="" style="display:block; margin-left:auto;margin-right:auto;">
       </div>
-      <div class="col-6">
+      <div class="col-8">
           <h5 style="margin-right:50px"><b>Baju Silat</h5>
           <h6>Perwajahan mahasiswa baru yang harus memiliki  bekal menjaga diri</h6><br>
 
@@ -94,7 +94,7 @@
           <div class="col-4">
             <img src="image/tinan.png" width="180px" height="120px" alt="" style="display:block; margin-left:auto;margin-right:auto;">
           </div>
-          <div class="col-4">
+          <div class="col-8">
             <h5><b>Almamater</h5>
               <h6>Perwajahan mahasiswa baru yang harus memiliki  bekal menjaga diri.</h6><br>
 
@@ -115,7 +115,7 @@
       <div class="col-4">
         <img src="image/ganan.png" width="200px" height="400px" alt="" style="display:block; margin-left:auto;margin-right:auto;">
       </div>
-      <div class="col-6">
+      <div class="col-8">
         <h5 style="margin-right:50px"><b>Baju Silat</h5>
           <h6>Perwajahan mahasiswa baru yang harus memiliki  bekal menjaga diri</h6><br>
 
@@ -123,7 +123,7 @@
           <h6>Replikasi atap rumah adat minangkabau, rumah gadang</h6><br>
 
           <h5><b>Pose</h5>
-          <h6>Menyilangkan tangan berarti ketahanan dan jari 2 ditangan kiri dan jari 2 <br>ditangan kanan melambangkan angkatan 2022</h6><br><br>
+          <h6>Menyilangkan tangan berarti ketahanan dan jari 2 ditangan kiri dan jari 2 ditangan kanan melambangkan angkatan 2022</h6><br><br>
       </div> 
     </div>
 
